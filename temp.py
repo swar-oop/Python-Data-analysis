@@ -8,3 +8,9 @@ This is a temporary script file.
 print("HI")
 print("Hi","Swaroop", sep=' :) ', end = '***')
 print("Ok bye")
+!pip list
+import pandas
+pandas?
+
+import pandas as pd
+pd.__version__
