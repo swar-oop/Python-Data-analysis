@@ -10,18 +10,15 @@ print("Hi","Swaroop", sep=' :) ', end = '***')
 print("Ok bye")
 #!pip list
 
-
 import pandas as pd
 pd.__version__
 
 s1= input()
 s2=input("Enter age")
 print(s2)
-
 print(f"My name is {s1} and My age is {s2}")
 
 a = 10 #assignment variable
-
 #type casting or type conversion
 f_to_i = int(12.54)
 f_to_i
@@ -56,3 +53,7 @@ print(name.ljust(5))
 print(name.center(30))
 new = name.replace('sahoo', 'smart')
 new
+n="     hello    "
+print(n.strip())
+
+
