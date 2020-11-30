@@ -20,8 +20,14 @@ for i in L1:
     print(i)
 print("out") #TAB function only
 
-r1= range(100)
+r1= range(100,150,6)
 r2= range(3,12)
 r1
-list(r2)
+lr1=list(r1)
+lr1
+lr2= list(r2)
+for i in lr2:
+    print(i)
+   #print(lr2)
+len(lr2)
 
