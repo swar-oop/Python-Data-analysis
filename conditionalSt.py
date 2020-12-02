@@ -40,3 +40,47 @@ for j in range(1,11):
 for k in range(1,11):
     for l in range(1,11):
         print(k," * ",l, " = ", k*l)
+
+for z in L1:
+    if z=='c':
+        print(z, "yes")
+        break
+    print(z, "noo")
+for z in L1:
+    if z=='c':
+        print(z, "yes")
+        continue #skips next steps for this iter
+    print(z, "noo")
+'''for z in L1:
+    if z=='c':
+        print(z, "yes")
+        pass 
+    print(z, "noo")'''
+
+#functions
+s=23; t=35
+def oper():
+    print("this is func")
+    print(s+t)
+    print(s*t)
+oper()
+def oper1(s=8,t=4): #default val cannot precede non default
+    print(s+t)
+    print(s*t)
+    print(s-t)
+    print(s/t)
+oper1(3,6)
+M=int(input("Enter first no"))
+N=int(input("Enter second no"))
+oper1(M, N)
+oper1()
+def reverse(s):
+    return(s[::-1])
+reverse('swaroop')
+
+
+import random as rd
+rd=3
+li=[1,23,4,56,7]
+print(random.choice(li))
+random.randint(20, 100)

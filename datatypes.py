@@ -147,3 +147,9 @@ for i,j,k in z1:
     print(i,j,k) #returns 3 diff elements
 a,b,c = zip(*z1) #unzip
 a,b,c
+
+
+
+
+
+
