@@ -80,7 +80,18 @@ reverse('swaroop')
 
 
 import random as rd
-rd=3
+
 li=[1,23,4,56,7]
 print(random.choice(li))
 random.randint(20, 100)
+lis=range(1,100)
+rd.choices(lis,k=10)
+se={2,4,7,1,5,9}
+#convert to tuple from set, dict to use random
+weights=rd.choices(tuple(se), k=5)
+print("Random from set ", weights)
+
+for i in range(3):
+    rd.seed(5) #freezes a random number
+    print(rd.randint(65, 600))
+    
